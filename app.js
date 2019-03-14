@@ -7,7 +7,7 @@ const app = express();
 // [START hello_world]
 // Say hello!
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, world!');
+  res.render('./view/index');
 });
 // [END hello_world]
 
