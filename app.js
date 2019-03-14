@@ -4,10 +4,13 @@ const express = require('express');
 
 const app = express();
 
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
+
 // [START hello_world]
 // Say hello!
 app.get('/', (req, res) => {
-  res.render('./view/index');
+  res.render('index.html');
 });
 // [END hello_world]
 
