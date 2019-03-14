@@ -1,0 +1,22 @@
+{
+  "name": "spotify-web-playback-playground",
+  "version": "1.0.0",
+  "description": "https://developer.spotify.com/documentation/web-playback-sdk/quick-start/ https://developer.spotify.com/documentation/web-playback-sdk/reference/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aTasteOfHome/SpotifyWebPlaybackPlayground.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aTasteOfHome/SpotifyWebPlaybackPlayground/issues"
+  },
+  "homepage": "https://github.com/aTasteOfHome/SpotifyWebPlaybackPlayground#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
